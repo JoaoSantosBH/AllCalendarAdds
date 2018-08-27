@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AllCalendarAdds</string>
+
+    <string name="calendar_intent">Using intents means that you don\'t need permissions to
+    add events. It\'ll just take you to the Calendar app and have you finish it up yourself.</string>
+
+    <string name="calendar_sync_random">If you\'re going to go for adding events in the background, you\'re going to use
+    a sync adapter, which requires an account tied to your calendar to work. Here, we\'re just grabbing a random one.
+    This can be okay or you could end up with events on your work\'s social calendar</string>
+
+    <string name="calendar_sync_local">In case you don\'t want to just add events to a random calendar, a local calendar
+    can be a great option. It\'ll just create a new calendar to add events to. However, those events don\'t sync at all
+    and you can only delete the calendar from the original app.</string>
+
+    <string name="calendar_sync_create">Let\'s try using a sync adapter to create a non local calendar now</string>
+
+    <string name="calendar_sync_choose">So if you don\'t want a random account used, and also would like synced events
+        for your users, you do have the option to have them select what calendar they use. Now the fun thing with getting
+        all the calendars a user might have linked to their account is that it includes all the calendars for all accounts.
+        So make sure you filter out the ones like, I don\'t know, your works social calendar you have permission to.
+    </string>
+
+    <string name="calendar_intent_button">Add Event using Calendar Intent</string>
+    <string name="random_account_button">Add Event using random account</string>
+    <string name="local_calendar_button">Add Event to Local Calendar</string>
+    <string name="delete_local_calendar_button">Delete Local Calendar</string>
+    <string name="create_nonlocal_calendar_button">Create Synced Calendar</string>
+    <string name="list_all_accounts_button">Get List of Calendar Accounts</string>
+    <string name="list_owned_accounts_button">Get Only Owned Accounts</string>
+
+    <string name="user_email_hint">Enter email to use</string>
+
+    <string name="select_account_template">Add Event using %s</string>
+    <string name="account_owner_template">Owner: %s</string>
+    <string name="account_type_template">Account type: %s</string>
+</resources>

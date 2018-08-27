@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C5EFF7</color>
+    <color name="colorPrimaryDark">#81CFE0</color>
+    <color name="colorAccent">#6C7A89</color>
+    <color name="pumiceGray">#D2D7D3</color>
+
+    <color name="buttonSecondary">@color/colorPrimary</color>
+    <color name="buttonSecondarySelected">@color/colorPrimaryDark</color>
+
+    <color name="itemSelectedBackground"></color>
+</resources>
